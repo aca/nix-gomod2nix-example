@@ -52,7 +52,7 @@
             pwd = ./.;
 
             # Optional flags.
-            CGO_ENABLED = 0;
+            CGO_ENABLED = 1;
             flags = [ "-trimpath" ];
             ldflags = [ "-s" "-w" "-extldflags -static" ];
           };
